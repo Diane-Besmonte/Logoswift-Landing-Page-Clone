@@ -1,0 +1,261 @@
+.col-12{
+    width: 100%;
+  }
+  
+  /* large desktop */
+  @media (min-width: 1200px){
+    .col-xl-6 {
+      width: calc(100% / 12 * 6);
+    }
+  
+    .col-xl-4 {
+      width: calc(100% / 12 * 3);
+    }
+  
+    .col-xl-12 {
+      width: calc(100% / 12 * 12);
+    }
+  
+    .col-xl-3 {
+      width: calc(100% / 12 * 4);
+    }
+  
+    .col-xl-5 {
+      width: 20%;
+    }
+  }
+  
+  /* small desktop */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-6 {
+      width: calc(100% / 12 * 6);
+    }
+  
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+    .col-lg-4 {
+      width: calc(100% / 12 * 3);
+    }
+
+    .col-lg-3 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .marginx {
+        padding-left: 20px;
+        padding-right: 600px;
+    }
+   
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-6 {
+        width: calc(100% / 12 * 6);
+      }
+    
+    .col-lg-12 {
+        width: 100%;
+      }
+    
+    .col-lg-4 {
+        width: calc(100% / 12 * 3);
+      }
+  
+    .col-lg-3 {
+          width: calc(100% / 12 * 4);
+      }
+
+    header {
+        padding-top: 30px;
+        min-height: 800px;
+        background: var(--bg-color);
+        background-image: url(https://logoswift.com/images/logoswift.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: 100%;
+    }
+
+    #third h2 {
+        font-family: var(--font);
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: normal;
+        color: var(--white);
+    }
+
+    #third {
+        max-height: 500px;
+        position: relative;
+        align-items: center;
+        display:flex;
+    }
+
+    .image-orange {
+        display:none;
+    }
+
+    /* .image {
+        position: absolute;
+        background-color: #fff;
+        background-image: url(https://logoswift.com/images/about.png); */
+        /* left: 50%; */
+        /* height: 90%;
+        width: 100%; */
+        /* background-size: contain; */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+      } */
+
+    .pic1, .pic2 {
+        position: relative;
+        height: 100%;
+        padding-top: 20%;
+        padding-bottom: 20px;
+      }
+    
+}
+  @media (min-width: 576px) and (max-width: 767px) {
+    .col-sm-6 {
+      width: calc(100% / 12 * 6);
+    }
+   
+    .col-sm-12 {
+      width: calc(100% / 12 * 12);
+    }
+  
+    .col-sm-4 {
+      width: calc(100% / 12 * 3);
+    }
+
+    .col-sm-3 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .marginx {
+      margin-left: 15px;
+      margin-right: 50px;
+      }
+  
+    .align-column {
+      flex-direction: column;
+    }
+
+    .headertxt {
+        font-size: 40px;
+        font-style: normal;
+        line-height: 48px;
+    }
+
+    
+    #third {
+        align-items: column;
+    }
+
+    header .nav {
+        display: none;
+    }
+
+    header img {
+        width: 100%;
+        min-width: 530px;
+        text-align: right;
+    }
+
+    .image-orange {
+        display:none;
+    }
+
+    /* .image {
+        position: absolute;
+        background-color: #fff;
+        background-image: url(https://logoswift.com/images/about.png); */
+        /* left: 50%; */
+        /* height: 90%;
+        width: 100%; */
+        /* background-size: contain; */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+      } */
+
+      .pic1, .pic2 {
+        position: relative;
+        height: 100%;
+        padding: 5% 10%;
+      }
+    
+
+  }
+  
+   @media (max-width: 575px) {
+    .col-sm-6 {
+      width: calc(100% / 12 * 6);
+    }
+   
+    .col-sm-12 {
+      width: calc(100% / 12 * 12);
+    }
+  
+    .col-sm-3 {
+      width: calc(100% / 12 * 4);
+    }
+  
+    .align-column {
+      flex-direction: column;
+    }
+  
+    header .nav {
+      display: none;
+    }
+  
+    header img {
+        width: 100%;
+        min-width: 400px;
+        text-align: right;
+    }
+
+    .headertxt {
+        font-size: 40px;
+        font-style: normal;
+        line-height: 48px;
+  }
+
+    header {
+        padding-top: 30px;
+        min-height: 800px;
+        background: var(--bg-color);
+        background-image: url(https://logoswift.com/images/logoswift.png);
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: 100%;
+    }
+
+    .image-orange {
+        display:none;
+    }
+
+    /* .image {
+        position: absolute;
+        background-color: #fff;
+        background-image: url(https://logoswift.com/images/about.png); */
+        /* left: 50%; */
+        /* height: 90%;
+        width: 100%; */
+        /* background-size: contain; */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+      } */
+
+      .pic1, .pic2 {
+        position: relative;
+        height: 100%;
+        /* margin-top: -20%; */
+        padding-bottom: 20px;
+      }
+}
+
